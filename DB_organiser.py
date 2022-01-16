@@ -41,7 +41,6 @@ def DB_organiser(pattern):
     print(f"GenomeDB: \n {os.listdir('../GenomeDB')}") 
     print(f"RASTthis: \n {os.listdir('../RASTthis')}")
     
-
 DB_organiser(genfile_regex)
 
 useful = (round(1-(woutboth/len(os.listdir())),2))*100
